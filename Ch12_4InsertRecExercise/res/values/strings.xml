@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch12_4InsertRecExercise</string>
+    <string name="Title">請輸入客戶資料</string>
+    <string name="CusNo">客戶編號:</string>
+    <string name="CusNa">客戶姓名:</string>
+    <string name="CusPho">客戶電話:</string>
+    <string name="CusAdd">客戶地址:</string>
+    <string name="CusNoEnt">在此輸入客戶編號</string>
+    <string name="CusNaEnt">在此輸入客戶姓名</string>
+    <string name="CusPhoEnt">在此輸入客戶電話</string>
+    <string name="CusAddEnt">在此輸入客戶地址</string>
+    <string name="Add">新增記錄</string>
+    <string name="reEnter">重新輸入</string>
+    
+</resources>

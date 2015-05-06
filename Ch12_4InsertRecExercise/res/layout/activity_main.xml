@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="@string/CusNo"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etIdNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CusNoEnt"
+                android:inputType="number"
+                android:textSize="25sp" />
+		</TableRow>
+		
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CusNa"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etIdNa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CusNaEnt"
+                android:inputType="text"
+                android:textSize="25sp" />
+		</TableRow>
+		
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CusPho"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etIdPho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CusPhoEnt"
+                android:inputType="number"
+                android:textSize="25sp" />
+		</TableRow>
+		        
+		<TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CusAdd"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etIdAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CusAddEnt"
+                android:inputType="text"
+                android:textSize="25sp" />
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TableRow>
+
+	        <Button
+	            android:id="@+id/btnIdAdd"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/Add"
+	            android:textSize="20sp" />
+
+	        <Button
+	            android:id="@+id/btnIdReEnt"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:text="@string/reEnter"
+	            android:textSize="20sp" />
+
+	    </TableRow>
+	</TableLayout>
+
+</LinearLayout>
